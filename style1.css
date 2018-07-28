@@ -1,35 +1,62 @@
 .main{
 	width:100%;
-	background-color: orange;
+	background-color:#859CE6;
 	display: flex;	
 	justify-content:center;
+	
+
+}
+h4,
+h3{
 	text-align: center;
 }
+ul,
+p
+{
+	font-size: 20px;
+}
+
 .left{
-	width: 70%;
-	border:3px solid green; 
-    box-shadow: 3px 3px 3px red;
+	width: 50%;
+	border:3px solid gray; 
+    box-shadow: 3px 3px 3px gray;
     margin: 1%;
     padding: 1%;
-    background-color: white;
+    background-color: #FFFACD;
+    text-align: center;
 }
 .right{
-	width: 30%;
-	border:3px solid green;
-	 box-shadow: 3px 3px 3px red;
+	width: 50%;
+	border:3px solid gray;
+	 box-shadow: 3px 3px 3px gray;
     margin: 1%;
     padding: 1%;
-    background-color: white;
+    background-color:#FFFACD ;
+
 }
 img{
-	width: 300px;
+	width: 200px;
+    border-style:double;
+    border-radius: 10px solid #000; 
 }
+
 h1,
-h2,
-h3{
-	font-size:33px;
+h3,
+{
+	font-size:35px;
 }
-@media only screen (min-width: 426px) and (max-width: 768px){
+
+.sset table,tr,td{
+	border: 3px solid #000;
+	border-collapse: collapse;
+}
+table{
+	margin-left: 75px;
+	font-size: 20px;
+}
+
+
+/*@media only screen (min-width: 426px) and (max-width: 768px){
 	.main{
 		display: flex;
 		flex-wrap: wrap; 
@@ -37,10 +64,30 @@ h3{
 	.left{
 		width: 95%;
 	}
-} 
-@media only screen and(max-width: 425sspx){
+} */
+@media only screen and(max-width: 480px){
 	.main{
+		width:100%;
 		display: flex;
-		flex-wrap: column; 
-	}
+		flex-direction: column ; 
+        text-align: center;
+        flex-wrap: wrap;	
+ 	}
+ 	.left
+ 	{
+    width: 30%;
+	border:3px solid gray; 
+    box-shadow: 3px 3px 3px gray;
+    margin: 1%;
+    padding: 1%;
+    background-color: #FFFACD;
+ 	}
+ 	right{
+	width: 65%;
+	border:3px solid gray;
+	 box-shadow: 3px 3px 3px gray;
+    margin: 1%;
+    padding: 1%;
+    background-color:#FFFACD ;
+
 }

@@ -1,8 +1,42 @@
 {
 	"details":{
-		"name":"ayesha",
-		"image":"download.jpg",
+		"name":"Ayesha Fathima Mohammed",
+		"image":"image.jpeg",
 		"phone":"9494949494",
 		"email":"mdayesha186@gmail.com"
-	}
+	},
+"education":[
+{
+	"course":"B.Tech(CSE)",
+	"college":"MIC College",
+	"per":"78%"
+},
+{
+	"course": "Intermediate(MPC)",
+	"college":"Sri Chaitanya",
+	"per":"90%"
+},
+{
+	"course": "SSC",
+	"college":"RBPS",
+	"per":"95%"
+}
+],
+"skills":[
+{
+	"title":"Programming Languages",
+	"output":[
+		"C","C++","Java","Python"
+	]
+},
+{
+     "title":"Operating Systems",
+     "output":[
+     	"Windows","Linux", "MAC"
+     ]
+ }
+     ],
+"career":{
+	"co":"To associate with organization and utilize my technical knowledge with my colleagues and maintain good team work"
+}
 }
